@@ -36,7 +36,7 @@ nav ul li a {
 }
 .content {
   height: calc(100vh - 310px);
-  padding: 2rem;
+  /* padding: 2rem; */
   display: flex;
   flex-direction: column;
   justify-content: start;
