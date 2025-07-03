@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Transaksi</title>
+    <link rel="stylesheet" href="../../assets/css/style.css" />
+    <script defer src="../../assets/js/form-validation.js"></script>
+    <style>
+      .form-card {
+        max-width: 600px;
+        margin: 3rem auto;
+        background: white;
+        padding: 2rem;
+        border-radius: 12px;
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+      }
+
+      .form-card h1 {
+        text-align: center;
+        color: #0055aa;
+        margin-bottom: 1.5rem;
+      }
+
+      form label {
+        display: block;
+        margin-bottom: 1rem;
+        font-weight: bold;
+      }
+
+      form input {
+        width: 100%;
+        padding: 0.6rem;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        margin-top: 0.3rem;
+        box-sizing: border-box;
+      }
+
+      form button {
+        margin-top: 1rem;
+        background-color: #0055aa;
+        color: white;
+        padding: 0.8rem 1.5rem;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        width: 100%;
+        font-size: 1rem;
+      }
+
+      form button:hover {
+        background-color: #003e80;
+      }
+
+      .link-transaksi {
+        display: block;
+        text-align: center;
+        margin-top: 1.5rem;
+        text-decoration: none;
+        background-color: #f1f1f1;
+        padding: 0.6rem 1rem;
+        border-radius: 6px;
+        color: #0055aa;
+        font-weight: bold;
+        transition: background-color 0.3s;
+      }
+
+      .link-transaksi:hover {
+        background-color: #ddd;
+      }
+
+      @media screen and (max-width: 600px) {
+        .form-card {
+          margin: 1.5rem;
+          padding: 1.5rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="../../assets/img/logo.png" alt="Logo" class="logo" />
+      <nav>
+        <ul>
+          <li><a href="home.html">Beranda</a></li>
+          <li><a href="transaksi.html">Transaksi</a></li>
+          <li><a href="profil.html">Profil</a></li>
+          <li><a href="login.html">Login</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="content">
+      <section class="form-card">
+        <h1>Form Transaksi</h1>
+        <form id="form-transaksi">
+          <label
+            >Nama Transaksi:
+            <input type="text" name="nama" />
+          </label>
+          <label
+            >Jumlah:
+            <input type="number" name="jumlah" />
+          </label>
+          <label
+            >Kategori:
+            <input type="text" name="kategori" />
+          </label>
+          <button type="submit">Simpan</button>
+        </form>
+        <a class="link-transaksi" href="daftar-transaksi.html"
+          >Lihat Daftar Transaksi</a
+        >
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Rental Mobil</p>
+    </footer>
+  </body>
+</html>

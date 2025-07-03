@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Daftar Transaksi</title>
+    <link rel="stylesheet" href="../../assets/css/style.css" />
+    <style>
+      .table-container {
+        width: 90%;
+        margin: 3rem auto;
+        background-color: white;
+        padding: 2rem;
+        border-radius: 12px;
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+      }
+
+      .table-container h1 {
+        text-align: center;
+        color: #0055aa;
+        margin-bottom: 2rem;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+
+      th,
+      td {
+        padding: 0.75rem 1rem;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+      }
+
+      thead {
+        background-color: #0055aa;
+        color: white;
+      }
+
+      tbody tr:nth-child(even) {
+        background-color: #f9f9f9;
+      }
+
+      tbody tr:hover {
+        background-color: #f1f1f1;
+      }
+
+      @media screen and (max-width: 600px) {
+        .table-container {
+          margin: 1.5rem;
+          padding: 1.2rem;
+        }
+
+        th,
+        td {
+          font-size: 0.9rem;
+          padding: 0.6rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="../../assets/img/logo.png" alt="Logo" class="logo" />
+      <nav>
+        <ul>
+          <li><a href="home.html">Beranda</a></li>
+          <li><a href="transaksi.html">Transaksi</a></li>
+          <li><a href="profil.html">Profil</a></li>
+          <li><a href="login.html">Login</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="content">
+      <section class="table-container">
+        <h1>Daftar Transaksi</h1>
+        <table>
+          <thead>
+            <tr>
+              <th>Nama Transaksi</th>
+              <th>Jumlah</th>
+              <th>Kategori</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Sewa Mobil</td>
+              <td>200.000</td>
+              <td>Rental</td>
+            </tr>
+            <tr>
+              <td>Sewa Kuda</td>
+              <td>100.000</td>
+              <td>Rental</td>
+            </tr>
+            <tr>
+              <td>Sewa Kura</td>
+              <td>400.000</td>
+              <td>Rental</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Rental Mobil</p>
+    </footer>
+  </body>
+</html>

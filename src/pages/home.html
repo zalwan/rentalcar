@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Beranda</title>
+    <link rel="stylesheet" href="../../assets/css/style.css" />
+    <style>
+      .hero {
+        max-width: 800px;
+        margin: 3rem auto;
+        background: white;
+        padding: 2rem;
+        border-radius: 12px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        text-align: center;
+      }
+
+      .hero h1 {
+        font-size: 2rem;
+        color: #0055aa;
+        margin-bottom: 1rem;
+      }
+
+      .hero ol {
+        text-align: left;
+        margin: 0 auto;
+        max-width: 400px;
+        padding-left: 1.2rem;
+        line-height: 1.8;
+      }
+
+      @media screen and (max-width: 600px) {
+        .hero {
+          margin: 1rem;
+          padding: 1.5rem;
+        }
+
+        .hero h1 {
+          font-size: 1.5rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="../../assets/img/logo.png" alt="Logo" class="logo" />
+      <nav>
+        <ul>
+          <li><a href="home.html">Beranda</a></li>
+          <li><a href="transaksi.html">Transaksi</a></li>
+          <li><a href="profil.html">Profil</a></li>
+          <li><a href="login.html">Login</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="content">
+      <section class="hero">
+        <h1>Selamat Datang di Aplikasi Rental Mobil</h1>
+        <p>Langkah mudah menggunakan aplikasi ini:</p>
+        <ol>
+          <li>Masuk ke halaman Login</li>
+          <li>Isi Form Transaksi</li>
+          <li>Lihat Daftar Transaksi</li>
+          <li>Lihat Profil Anda</li>
+        </ol>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Rental Mobil</p>
+    </footer>
+  </body>
+</html>
