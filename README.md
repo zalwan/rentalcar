@@ -20,6 +20,7 @@ Selamat datang di repositori **Rental Mobil**, sebuah aplikasi web sederhana unt
 
 ## 🗂️ Struktur Proyek
 
+```bash
 📦UAS-RentalMobil
 ┣ 📂assets
 ┃ ┣ 📂css # File CSS styling
@@ -29,6 +30,7 @@ Selamat datang di repositori **Rental Mobil**, sebuah aplikasi web sederhana unt
 ┃ ┣ 📂components # Komponen header/footer (opsional)
 ┃ ┗ 📂pages # Halaman HTML utama (beranda, transaksi, dll)
 ┗ 📜index.html # Halaman redirect ke beranda
+```
 
 ---
 
